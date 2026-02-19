@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Service Details - MyPage Bootstrap Template</title>
+  <title>Service Details - FolioOne Bootstrap Template</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -15,22 +15,22 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: MyPage
-  * Template URL: https://bootstrapmade.com/mypage-bootstrap-personal-template/
-  * Updated: Sep 20 2025 with Bootstrap v5.3.8
+  * Template Name: FolioOne
+  * Template URL: https://bootstrapmade.com/folioone-bootstrap-portfolio-website-template/
+  * Updated: Aug 23 2025 with Bootstrap v5.3.7
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
@@ -38,200 +38,286 @@
 
 <body class="service-details-page">
 
-  <header id="header" class="header dark-background d-flex flex-column justify-content-between">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
 
-    <div class="header-top">
-      <div class="profile-img">
-        <img src="assets/img/profile/profile-square-14.webp" alt="" class="img-fluid">
+      <!-- <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+      <img src="assets/img/logo.webp" alt="">
+      <h1 class="sitename">FolioOne</h1> 
+    </a> -->
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
-      <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <h1 class="sitename">Mark Andersen</h1>
-      </a>
-
-    </div>
-
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="#">Dropdown 1</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Deep Dropdown 1</a></li>
-                <li><a href="#">Deep Dropdown 2</a></li>
-                <li><a href="#">Deep Dropdown 3</a></li>
-                <li><a href="#">Deep Dropdown 4</a></li>
-                <li><a href="#">Deep Dropdown 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Dropdown 2</a></li>
-            <li><a href="#">Dropdown 3</a></li>
-            <li><a href="#">Dropdown 4</a></li>
-          </ul>
-        </li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
-      </ul>
-    </nav>
-
-    <div class="social-links text-center">
-      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
     </div>
   </header>
 
   <main class="main">
 
-    <!-- Page Title -->
-    <div class="page-title light-background">
-      <div class="container">
-        <h1>Service Details</h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Service Details</li>
-          </ol>
-        </nav>
-      </div>
-    </div><!-- End Page Title -->
-
     <!-- Service Details Section -->
     <section id="service-details" class="service-details section">
 
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Service Details</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+      </div><!-- End Section Title -->
+
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-5">
+        <div class="row">
 
-          <div class="col-lg-8">
+          <!-- Main Content Area -->
+          <div class="col-lg-7">
 
-            <div class="service-content">
-
-              <div class="service-hero" data-aos="fade-up" data-aos-delay="200">
-                <h2>Web Development &amp; Design</h2>
-                <p class="lead">Creating modern, responsive websites that elevate your brand and engage your audience. From concept to launch, I craft digital experiences that perform beautifully across all devices.</p>
+            <!-- Hero Service Introduction -->
+            <div class="service-hero" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-meta">
+                <span class="service-category">Strategic Consulting</span>
+                <span class="reading-time">5 min read</span>
               </div>
+              <h1>Business Process Optimization</h1>
+              <p class="service-description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra.</p>
+            </div>
 
-              <div class="service-image" data-aos="zoom-in" data-aos-delay="300">
-                <img src="assets/img/services/services-3.webp" alt="Web Development" class="img-fluid">
-              </div>
+            <!-- Service Visual -->
+            <div class="service-visual" data-aos="zoom-in" data-aos-delay="200">
+              <img src="assets/img/services/services-7.webp" alt="Business Process Optimization" class="img-fluid">
+            </div>
 
-              <div class="service-description" data-aos="fade-up" data-aos-delay="400">
-                <h3>What's Included</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <!-- Service Content -->
+            <div class="service-narrative" data-aos="fade-up" data-aos-delay="300">
+              <h3>Transform Your Operations</h3>
+              <p>Donec rutrum congue leo eget malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta.</p>
 
-                <div class="features-list">
-                  <div class="feature-item">
-                    <i class="bi bi-palette"></i>
-                    <div>
-                      <h4>Custom Design</h4>
-                      <p>Unique visual identity tailored to your brand and target audience preferences.</p>
-                    </div>
+              <p>Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sollicitudin molestie malesuada.</p>
+
+              <!-- Key Benefits Grid -->
+              <div class="benefits-grid" data-aos="fade-up" data-aos-delay="400">
+                <div class="benefit-card">
+                  <div class="benefit-icon">
+                    <i class="bi bi-lightning-charge"></i>
                   </div>
-                  <div class="feature-item">
-                    <i class="bi bi-code-slash"></i>
-                    <div>
-                      <h4>Clean Development</h4>
-                      <p>Semantic HTML, modern CSS, and optimized JavaScript for fast loading times.</p>
-                    </div>
-                  </div>
-                  <div class="feature-item">
-                    <i class="bi bi-phone"></i>
-                    <div>
-                      <h4>Mobile First</h4>
-                      <p>Responsive design that looks perfect on all devices and screen sizes.</p>
-                    </div>
-                  </div>
-                  <div class="feature-item">
-                    <i class="bi bi-search"></i>
-                    <div>
-                      <h4>SEO Optimized</h4>
-                      <p>Built with search engine optimization best practices from the ground up.</p>
-                    </div>
-                  </div>
+                  <h4>Efficiency Boost</h4>
+                  <p>Curabitur arcu erat accumsan id imperdiet et porttitor at sem.</p>
                 </div>
-              </div>
 
-              <div class="process-section" data-aos="fade-up" data-aos-delay="500">
-                <h3>My Process</h3>
-                <div class="process-steps">
-                  <div class="step">
-                    <div class="step-number">01</div>
-                    <h4>Discovery</h4>
-                    <p>Understanding your goals, target audience, and project requirements through detailed consultation.</p>
+                <div class="benefit-card">
+                  <div class="benefit-icon">
+                    <i class="bi bi-shield-check"></i>
                   </div>
-                  <div class="step">
-                    <div class="step-number">02</div>
-                    <h4>Design</h4>
-                    <p>Creating wireframes and visual designs that align with your brand and user experience goals.</p>
+                  <h4>Risk Mitigation</h4>
+                  <p>Pellentesque in ipsum id orci porta dapibus vestibulum ante ipsum.</p>
+                </div>
+
+                <div class="benefit-card">
+                  <div class="benefit-icon">
+                    <i class="bi bi-graph-up"></i>
                   </div>
-                  <div class="step">
-                    <div class="step-number">03</div>
-                    <h4>Development</h4>
-                    <p>Building your website with clean code, responsive layouts, and performance optimization.</p>
+                  <h4>Growth Acceleration</h4>
+                  <p>Vivamus suscipit tortor eget felis porttitor volutpat mauris blandit.</p>
+                </div>
+
+                <div class="benefit-card">
+                  <div class="benefit-icon">
+                    <i class="bi bi-people"></i>
                   </div>
-                  <div class="step">
-                    <div class="step-number">04</div>
-                    <h4>Launch</h4>
-                    <p>Testing, refinement, and deployment with ongoing support and maintenance options.</p>
-                  </div>
+                  <h4>Team Alignment</h4>
+                  <p>Donec rutrum congue leo eget malesuada vivamus magna justo lacinia.</p>
                 </div>
               </div>
 
             </div>
 
-          </div>
-
-          <div class="col-lg-4">
-
-            <div class="service-sidebar">
-
-              <div class="service-info" data-aos="fade-up" data-aos-delay="600">
-                <h4>Project Details</h4>
-                <ul class="info-list">
-                  <li><strong>Timeline:</strong> 4-6 weeks</li>
-                  <li><strong>Revisions:</strong> 3 rounds included</li>
-                  <li><strong>Technologies:</strong> HTML, CSS, JavaScript</li>
-                  <li><strong>Support:</strong> 30 days post-launch</li>
-                </ul>
-              </div>
-
-              <div class="testimonial-block" data-aos="fade-up" data-aos-delay="700">
-                <div class="quote-icon">
-                  <i class="bi bi-quote"></i>
+            <!-- Implementation Timeline -->
+            <div class="timeline-section" data-aos="fade-up" data-aos-delay="500">
+              <h3>Implementation Journey</h3>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-marker">
+                    <span>1</span>
+                  </div>
+                  <div class="timeline-content">
+                    <h4>Discovery &amp; Assessment</h4>
+                    <p>Comprehensive analysis of current processes and identification of optimization opportunities.</p>
+                    <small>Week 1-2</small>
+                  </div>
                 </div>
-                <blockquote>
-                  "Working with this developer was an absolute pleasure. The attention to detail and creative solutions exceeded our expectations."
-                </blockquote>
-                <div class="testimonial-author">
-                  <img src="assets/img/person/person-f-3.webp" alt="Client" class="author-image">
-                  <div class="author-info">
-                    <h5>Sarah Johnson</h5>
-                    <span>Creative Director</span>
+
+                <div class="timeline-item">
+                  <div class="timeline-marker">
+                    <span>2</span>
+                  </div>
+                  <div class="timeline-content">
+                    <h4>Strategic Planning</h4>
+                    <p>Development of customized optimization roadmap with clear milestones and success metrics.</p>
+                    <small>Week 3-4</small>
+                  </div>
+                </div>
+
+                <div class="timeline-item">
+                  <div class="timeline-marker">
+                    <span>3</span>
+                  </div>
+                  <div class="timeline-content">
+                    <h4>Implementation</h4>
+                    <p>Systematic rollout of process improvements with continuous monitoring and adjustment.</p>
+                    <small>Week 5-12</small>
+                  </div>
+                </div>
+
+                <div class="timeline-item">
+                  <div class="timeline-marker">
+                    <span>4</span>
+                  </div>
+                  <div class="timeline-content">
+                    <h4>Optimization &amp; Scale</h4>
+                    <p>Fine-tuning of implemented solutions and preparation for organization-wide scaling.</p>
+                    <small>Week 13-16</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- End Main Content -->
+
+          <!-- Service Sidebar -->
+          <div class="col-lg-5">
+            <div class="service-sidebar" data-aos="fade-up" data-aos-delay="200">
+
+              <!-- Service Overview Card -->
+              <div class="overview-card">
+                <div class="overview-header">
+                  <h4>Service Overview</h4>
+                </div>
+                <div class="overview-stats">
+                  <div class="stat-item">
+                    <div class="stat-number">16</div>
+                    <div class="stat-label">Weeks Duration</div>
+                  </div>
+                  <div class="stat-item">
+                    <div class="stat-number">85%</div>
+                    <div class="stat-label">Efficiency Gain</div>
+                  </div>
+                  <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support Access</div>
+                  </div>
+                </div>
+
+                <div class="overview-details">
+                  <div class="detail-row">
+                    <span class="detail-label">Investment Range</span>
+                    <span class="detail-value">$15K - $45K</span>
+                  </div>
+                  <div class="detail-row">
+                    <span class="detail-label">Team Composition</span>
+                    <span class="detail-value">3-5 Specialists</span>
+                  </div>
+                  <div class="detail-row">
+                    <span class="detail-label">Industries Served</span>
+                    <span class="detail-value">Manufacturing, Tech, Finance</span>
                   </div>
                 </div>
               </div>
 
-              <div class="cta-block" data-aos="fade-up" data-aos-delay="800">
-                <h4>Ready to Start?</h4>
-                <p>Let's discuss your project and bring your vision to life.</p>
-                <a href="#" class="btn btn-primary">Get a Quote</a>
-                <a href="#" class="btn btn-outline">View Portfolio</a>
+              <!-- Client Success Story -->
+              <div class="success-story">
+                <div class="story-quote">
+                  <p>"Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."</p>
+                </div>
+                <div class="story-author">
+                  <img src="assets/img/person/person-m-8.webp" alt="Michael Chen" class="author-avatar">
+                  <div class="author-details">
+                    <h5>Michael Chen</h5>
+                    <span>Operations Director</span>
+                    <small>TechCorp Industries</small>
+                  </div>
+                </div>
+                <div class="story-metrics">
+                  <div class="metric">
+                    <span class="metric-value">45%</span>
+                    <span class="metric-label">Cost Reduction</span>
+                  </div>
+                  <div class="metric">
+                    <span class="metric-value">3x</span>
+                    <span class="metric-label">Speed Increase</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Consultation Form -->
+              <div class="consultation-form">
+                <div class="form-header">
+                  <h4>Schedule Consultation</h4>
+                  <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+                </div>
+
+                <form action="forms/consultation.php" method="post" class="php-email-form">
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-input" placeholder="Full Name" required="">
+                  </div>
+
+                  <div class="form-group">
+                    <input type="email" name="email" class="form-input" placeholder="Email Address" required="">
+                  </div>
+
+                  <div class="form-group">
+                    <input type="tel" name="phone" class="form-input" placeholder="Phone Number">
+                  </div>
+
+                  <input type="hidden" name="subject" value="Business Process Optimization Consultation">
+
+                  <div class="form-group">
+                    <textarea name="message" class="form-input" rows="4" placeholder="Tell us about your current challenges and goals..." required=""></textarea>
+                  </div>
+
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your consultation request has been sent. Thank you!</div>
+
+                  <button type="submit" class="btn-consultation">
+                    <span>Book Free Consultation</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </button>
+                </form>
               </div>
 
             </div>
-
-          </div>
+          </div><!-- End Sidebar -->
 
         </div>
 
@@ -241,30 +327,27 @@
 
   </main>
 
-  <footer id="footer" class="footer light-background">
+  <footer id="footer" class="footer">
+
     <div class="container">
-      <h3 class="sitename">Mark Andersen</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">FolioOne</strong> <span>All Rights Reserved<br></span></p>
+      </div>
       <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-twitter-x"></i></a>
         <a href=""><i class="bi bi-facebook"></i></a>
         <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-skype"></i></a>
         <a href=""><i class="bi bi-linkedin"></i></a>
       </div>
-      <div class="container">
-        <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Mark Andersen</strong> <span>All Rights Reserved</span>
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a>
-        </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a>
       </div>
     </div>
+
   </footer>
 
   <!-- Scroll Top -->
@@ -277,13 +360,13 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
